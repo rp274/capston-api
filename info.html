@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>API-Wireframe</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <section id="search">
+      <form action="info.html">
+        <label for='location'></label>
+        <input type='text' id='home-location'value='Chicago, IL 60604'>
+        <input type="date" id="today">
+        <input type="submit" id="refresh" value="update">
+      </form>
+      </section>
+    </header>
+
+    <div class="container">
+            
+      <section id="weather-results" class="hidden">
+        <h2>Forcast:</h2>
+      </section>
+<hr>
+      <section id='event-results' class="hidden">
+        <h2>Events:</h2>
+        <ul id="event-list">
+          <li><strong>May 15 @ 7pm:</strong> <a href="">Chicago Wolves - Round 2 - Game 4</a><br><em>Allstate Arena</em></li>
+          <li><strong>May 15 @ 1pm:</strong> <a href="">Marriott Theatre Presents: Footloose</a>
+          <br><em>Marriott Theatre</em></li>
+          <li><strong>May 15 @ 2pm:</strong> <a href="">Blue Man Group</a><br><em>Briar Street Theatre</em></li>
+          <li><strong>May 16 @ 7pm:</strong> <a href="">Long Grove Chocolate Fest</a><br><em>Long Grover, IL</em></li>
+          <li><strong>May 16 @ 6pm:</strong> <a href ="">Iron Regan</a><br><em>Reggies Rock Club</em></li>
+        </ul>
+      </section>
+
+      <p id="js-error-message" class="error-message"></p>
+    </div>
+    <footer>Powered by DarkSky | Ticketmaster</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
