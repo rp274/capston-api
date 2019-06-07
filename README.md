@@ -1,4 +1,4 @@
-# capston-api
+# capstone-api
 **The API hack capstone is largely open-ended. You'll choose at least 1, but preferably multiple APIs to work with and come up with an app that does something interesting with the data from those APIs. Ultimately, the user experience is up to you. The high-level requirements for your app are as follows:**
 
 * **The app should do something interesting:** _The overarching UX (user experience) requirement for this app is that it pulls in data from third party APIs and displays that data in some way to your user. It's up to you to figure out how to make this experience feel compelling to the user, and who it is that you want to make something interesting for. If you choose to work with only 1 API, you must do something with the data to present it in an original or interesting way._
